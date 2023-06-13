@@ -8,7 +8,7 @@ require('dotenv').config();
 const app = (0, express_1.default)();
 const port = process.env.PORT;
 app.use('/', (req, res) => {
-    res.send('Hello world!');
+    res.send('Hello world!!!');
 });
 app.listen(port, () => {
     console.log('SERVER IS UP ON PORT:', port);

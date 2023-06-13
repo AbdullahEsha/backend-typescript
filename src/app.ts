@@ -6,7 +6,7 @@ const app: Application = express()
 const port: any = process.env.PORT
 
 app.use('/', (req: Request, res: Response): void => {
-  res.send('Hello world!')
+  res.send('Hello world and many more!')
 })
 
 app.listen(port, (): void => {
